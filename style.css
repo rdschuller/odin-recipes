@@ -1,0 +1,21 @@
+body {
+    font-family: Radley, Georgia, 'Times New Roman', Times, serif;
+    background-color: #FADF63;
+}
+
+.banner-container {
+    background-color: #2274A5;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.banner-container::before {
+    left: 10px;
+  }
+  
+  .banner-container::after {
+    right: 10px;
+  }
